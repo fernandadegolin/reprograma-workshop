@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 10px; /* tamanho da fonte */ 
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*LAYOUT*/
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+/*FONTES*/
+
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BOTÃO*/
+
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-branco{ /*Veja mais sobre mim*/
+    color: rgb(68, 68, 68);
+    background-color: white;
+}
+.btn-roxo{       /*Veja meu Currículo*/
+    color: rgb(68, 68, 68);
+    border: 1px solid rgb(68, 68, 68);
+}
+
+/*UTILIDADES*/
+
+/*HEADER BANNER*/
+
+.banner{
+    background: url(../img/IMG_1162a.jpg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: left;
+    padding-top: 15rem;
+    color: white;
+}
+
+.banner__titulo{
+    font-size: 4.5rem;
+}
+
+.banner__subtitulo{
+    font-size: 2rem;
+}
+
+
+/*SEÇÃO SOBRE*/
+
+.sobre__titulo{
+    font-size: 2rem;
+    color: rgb(68, 68, 68);
+}
+
+.sobre-descricao {
+    width: 40%;
+    display: inline-flexbox;
+    line-height: 2;
+}
+
+.sobre-habilidades{
+    width: 40%;
+    display: inline-block;
+    line-height: 2;
+    margin-left: 10rem;
+}
+
+
+.sobre-descricao__destaque{                  /*Natural de ...*/
+    font-size: 1.5rem;
+    text-align: justify;
+    float: left;
+	
+}
+
+.sobre-habilidades__titulo{
+    font-size: 2rem;
+    color: rgb(68, 68, 68);  
+}
+
+
+
+.sobre-habilidades__lista{                /*Futura programadora*/
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+
+/*REDES SOCIAIS*/
+
+.footer{
+    text-align: center;
+}
+
+.redes-sociais__link{
+    display: inline-block;
+    width: 20%;
+    background-color: rgb(68, 68, 68);
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.redes-sociais__img, .redes-sociais__titulo{
+    margin-bottom: .5rem;
+}
+
+.footer-copyrigt__texto{
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+}
